@@ -1,16 +1,47 @@
-# SimpleUpdater
-SimpleUpdater is a lightweight Python module designed to simplify the process of updating software seamlessly. It provides an easy-to-use interface for programmers to check for new versions and perform updates with just a few lines of code.
+<h1 align="center">Welcome to SimpleUpdater 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/mvishok/SimpleUpdater/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-## Key Features
-1. Version checking: Compare the current software version with the latest version available, either from a local file or a remote server.
-2. Automatic update downloads: Download updated files or packages from a specified source, ensuring a smooth and efficient update process.
-3. Flexible integration: Easily integrate SimpleUpdater into your existing Python projects or applications.
+> A simple updater module for seamless updates
 
-## Getting Started
-To get started with SimpleUpdater, install the package from PyPI. Refer example.py for usage.
+### 🏠 [Homepage](https://github.com/mvishok/SimpleUpdater)
 
-Contributions
-Contributions are welcome! If you encounter any bugs or have suggestions for new features, please submit an issue or create a pull request. Help us improve SimpleUpdater and make it even more useful for the developer community.
+## Install
 
-License
-SimpleUpdater is released under the MIT License. Feel free to use it in your own projects and customize it to fit your needs.
+```sh
+pip install simpleupdater
+```
+
+## Usage
+
+```sh
+SimpleUpdater.checkForUpdates(CURRENT_VERSION, VERSION_URL)
+```
+
+## Author
+
+👤 **Vishok M**
+
+* Website: https://github.com/mvishok/
+* Github: [@mvishok](https://github.com/mvishok)
+* LinkedIn: [@vishokmanikantan](https://linkedin.com/in/vishokmanikantan)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/mvishok/SimpleUpdater/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2023 [Vishok M](https://github.com/mvishok).<br />
+This project is [MIT](https://github.com/mvishok/SimpleUpdater/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
