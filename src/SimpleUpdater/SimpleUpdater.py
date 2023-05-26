@@ -20,6 +20,7 @@ def checkForUpdates(CURRENT_VERSION, versionUrl):
                 Popen(updaterPath)
                 exit()
         elif updateType == "important":
+            from easygui import ynbox
             if ynbox('An important update for the application is available. This update contains critical bug fixes and security enhancements. It is mandatory to download and install the update to ensure the continued functionality and security of the application.', 'Important Update Required', ('Download Now', 'Exit Application')):
                 Popen(updaterPath)
                 exit()
