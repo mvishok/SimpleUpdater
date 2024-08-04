@@ -1,3 +1,4 @@
+#0.0.1
 from SimpleUpdater import SimpleUpdater
 
 # Current version of the application
