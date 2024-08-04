@@ -1,5 +1,6 @@
 #0.0.1
-from SimpleUpdater import SimpleUpdater
+import sys
+print (sys.argv[1:])
 
 # Current version of the application
 CURRENT_VERSION = '0.0.1'
